@@ -1,0 +1,26 @@
+{
+  "id": "{{service.name}}",
+  "cmd": null,
+  "cpus": "{{ingestion.app.cpus}}",
+  "mem": "{{ingestion.app.mem}}",
+  "disk": 0,
+  "instances": "{{ingestion.app.instances}}",
+  "container": {
+    "type": "DOCKER",
+    "volumes": [],
+    "docker": {
+      "image": "{{resource.assets.container.docker.38708eac9993}}",
+      "network": "HOST",
+      "privileged": false,
+      "parameters": [],
+      "forcePullImage": false
+    }
+  },
+  "portDefinitions": [
+    {
+      "port": 10000,
+      "protocol": "tcp",
+      "labels": {}
+    }
+  ]
+}
