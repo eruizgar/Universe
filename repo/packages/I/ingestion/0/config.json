@@ -23,12 +23,6 @@
           "type": "string",
           "default": "ingestion"
         },
-        "hostname": {
-          "description": "The advertised hostname stored in ZooKeeper so another standby host can redirect to this elected leader (default = localhost)",
-          "type": "string",
-          "default": "$HOST"
-        },
-
         "mem": {
           "description": "Memory (MB) to allocate to each Ingestion instance.",
           "type": "number",
