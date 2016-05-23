@@ -33,7 +33,6 @@
       "required": [
         "cpus",
         "framework-name",
-        "hostname",
         "instances",
         "mem"
       ]
