@@ -5,7 +5,7 @@
   "tags": ["ingestion", "stratio", "flume"],
   "maintainer": "paas@stratio.com",
   "description": "Apache Flume with steroids",
-  "scm": "https://github.com/eruizgar/Universe/Ingestion",
+  "scm": "https://github.com/eruizgar/Universe",
   "website": "http://stratio.com",
   "licenses": [
     {
