@@ -26,8 +26,8 @@
         "mem": {
           "description": "Memory (MB) to allocate to each Ingestion instance.",
           "type": "number",
-          "minimum": 512.0,
-          "default": 1024.0
+          "minimum": 16.0,
+          "default": 128.0
         }
       },
       "required": [
