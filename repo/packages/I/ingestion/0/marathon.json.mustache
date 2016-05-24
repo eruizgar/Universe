@@ -13,17 +13,6 @@
         "network": "HOST"
     }
     },
-    "healthChecks": [
-        {
-            "path": "/",
-            "portIndex": 1,
-            "protocol": "HTTP",
-            "gracePeriodSeconds": 5,
-            "intervalSeconds": 60,
-            "timeoutSeconds": 10,
-            "maxConsecutiveFailures": 3
-        }
-    ],
     "labels": {
         "DCOS_PACKAGE_FRAMEWORK_NAME": "{{ingestion.framework-name}}"
     }
