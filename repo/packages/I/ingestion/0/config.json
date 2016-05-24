@@ -34,7 +34,7 @@
         "cpus",
         "framework-name",
         "instances",
-        "mem" 
+        "mem"
       ]
     }
   }
