@@ -6,6 +6,17 @@
     "env": {
         "APPLICATION_WEB_PROXY_BASE": "/service/ingestion"
     },
+    "healthChecks": [
+        {
+            "gracePeriodSeconds": 120,
+            "intervalSeconds": 30,
+            "maxConsecutiveFailures": 0,
+            "path": "/",
+            "portIndex": 0,
+            "protocol": "HTTP",
+            "timeoutSeconds": 5
+        }
+    ],
     "container": {
         "type": "DOCKER",
         "docker": {
