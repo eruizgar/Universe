@@ -21,7 +21,7 @@
         "framework-name": {
           "description": "The framework name (default = Ingestion)",
           "type": "string",
-          "default": "ingestion"
+          "default": "Ingestion"
         },
         "mem": {
           "description": "Memory (MB) to allocate to each Ingestion instance.",
