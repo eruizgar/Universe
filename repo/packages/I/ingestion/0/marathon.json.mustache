@@ -6,17 +6,6 @@
     "env": {
         "APPLICATION_WEB_PROXY_BASE": "/service/ingestion"
     },
-    "healthChecks": [
-        {
-            "gracePeriodSeconds": 120,
-            "intervalSeconds": 30,
-            "maxConsecutiveFailures": 0,
-            "path": "/",
-            "portIndex": 0,
-            "protocol": "HTTP",
-            "timeoutSeconds": 5
-        }
-    ],
     "container": {
         "type": "DOCKER",
         "docker": {
@@ -24,6 +13,17 @@
         "network": "HOST"
     }
     },
+    "healthChecks": [
+        {
+            "path": "/",
+            "portIndex": 1,
+            "protocol": "HTTP",
+            "gracePeriodSeconds": 5,
+            "intervalSeconds": 60,
+            "timeoutSeconds": 10,
+            "maxConsecutiveFailures": 3
+        }
+    ],
     "labels": {
         "DCOS_PACKAGE_FRAMEWORK_NAME": "{{ingestion.framework-name}}"
     }
