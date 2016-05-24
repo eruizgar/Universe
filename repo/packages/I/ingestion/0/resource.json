@@ -7,7 +7,7 @@
   "assets": {
     "container": {
       "docker": {
-        "38708eac9993": "stratio/ingestion"
+        "ingestion": "stratio/ingestion"
       }
     }
   }

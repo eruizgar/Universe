@@ -3,15 +3,16 @@
   "name": "ingestion",
   "version": "0.6.2",
   "tags": ["ingestion", "stratio", "flume"],
+  "framework":false,
   "maintainer": "paas@stratio.com",
   "description": "Apache Flume with steroids",
   "scm": "https://github.com/eruizgar/Universe",
   "website": "http://stratio.com",
+  "postInstallNotes": "Enjoy Stratio ingestion!!",
   "licenses": [
     {
       "name": "Apache License Version 2.0",
       "url": "https://raw.githubusercontent.com/mesos/elasticsearch/master/LICENSE"
     }
-  ],
-  "postInstallNotes": "Enjoy Stratio ingestion!!"
+  ]
 }

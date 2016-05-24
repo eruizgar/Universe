@@ -1,5 +1,4 @@
 {
-  "type": "object",
   "properties": {
     "ingestion": {
       "description": "Ingestion Framework Configuration Properties",
